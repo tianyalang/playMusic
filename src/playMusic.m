@@ -1,10 +1,11 @@
 clear
 
 fs = 44100;  % ²ÉÑùÂÊ£¬MP3 standard
-% pu_BeiJiaerHu
-% pu_Moon
-pu_MiXue
+pu_Canon
 sound(pu, fs);
 
-% audiowrite('mysobei.wav',beijia,fs); % output
+% pu_BeiJiaerHu
+% pu_Moon
+% pu_MiXue
+% audiowrite('mysobei.wav', pu, fs); % output
 
