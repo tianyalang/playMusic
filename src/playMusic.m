@@ -7,5 +7,6 @@ sound(pu, fs);
 % pu_BeiJiaerHu
 % pu_Moon
 % pu_MiXue
-% audiowrite('mysobei.wav', pu, fs); % output
+
+% audiowrite('mysobei.wav', pu, fs); % output music file
 
