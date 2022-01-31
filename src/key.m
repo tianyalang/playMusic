@@ -11,11 +11,11 @@ function g = key(p, varargin)
             t = t0/n;
         otherwise      %—” ±“Ùº∆À„
             if n<100
-                a=floor(n/10);
-                b=mod(n,10);
+                a = floor(n/10);
+                b = mod(n,10);
             else
-                a=floor(n/100);
-                b=mod(n,100);
+                a = floor(n/100);
+                b = mod(n,100);
             end
             
             t = t0*(1/a + 1/b);      
